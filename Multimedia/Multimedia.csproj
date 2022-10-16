@@ -149,6 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\APRENDER-IDIOMAS.jpg" />
+    <Content Include="Assets\españa.png" />
+    <Content Include="Assets\inglaterra.png" />
+    <Content Include="Assets\italia.png" />
+    <Content Include="Assets\korea.png" />
+    <Content Include="Assets\pregunta.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

@@ -10,6 +10,14 @@
     d:DesignWidth="400">
 
     <Grid>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/APRENDER-IDIOMAS.jpg" Width="651"/>
+        <Grid HorizontalAlignment="Center" Height="280" VerticalAlignment="Center" Width="380">
+            <TextBox HorizontalAlignment="Left" Height="52" Margin="28,22,0,0" Text="¿Qué idioma quieres aprender hoy?" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" FontWeight="Bold"/>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="48" Margin="75,115,0,0" VerticalAlignment="Top" Width="89" Source="/Assets/españa.png"/>
+        <Image HorizontalAlignment="Left" Height="48" Margin="243,115,0,0" VerticalAlignment="Top" Width="79" Source="/Assets/inglaterra.png"/>
+        <Image HorizontalAlignment="Left" Height="60" Margin="68,187,0,0" VerticalAlignment="Top" Width="110" Source="/Assets/korea.png"/>
+        <Image HorizontalAlignment="Left" Height="60" Margin="233,187,0,0" VerticalAlignment="Top" Width="125" Source="/Assets/italia.png"/>
 
     </Grid>
 </UserControl>
