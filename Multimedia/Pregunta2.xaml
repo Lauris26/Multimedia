@@ -12,13 +12,13 @@
     <Grid>
         <Image HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="521" Source="/Assets/pregunta.jpg"/>
         <Grid HorizontalAlignment="Center" Height="71" Margin="0,10,0,0" VerticalAlignment="Top" Width="380">
-            <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de ?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold"/>
+            <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de &quot;buenas tardes&quot;?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold"/>
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="361,271,0,0" Text="2 / 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
-        <Button Content="opcion1" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="opcion2" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="opcion3" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="opcion4" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button Content="God afternoon" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button Content="Good affternon" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button Content="Good afternoon" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button Content="None are true" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317" Click="Button_Click"/>
 
     </Grid>
 </UserControl>
