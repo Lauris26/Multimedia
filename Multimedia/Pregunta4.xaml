@@ -15,10 +15,10 @@
             <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de &quot;te quiero&quot;?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold" TextChanged="TextBox_TextChanged"/>
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="361,271,0,0" Text="4 / 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
-        <Button Content="I like you" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I love you" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I hate you" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I feel you" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion1" Content="I like you" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion2" Content="I love you" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion3" Content="I hate you" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion4" Content="I feel you" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
 </UserControl>

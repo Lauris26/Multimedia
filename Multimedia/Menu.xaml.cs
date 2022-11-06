@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Resources;
+using Multimedia.Properties;
 
 // La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
 
@@ -22,6 +24,33 @@ namespace Multimedia
         public Menu()
         {
             this.InitializeComponent();
+        }
+
+        int idioma = 0;
+
+        private void eleccion_IT(object sender, PointerRoutedEventArgs e)
+        {
+            idioma = 3;
+        }
+
+        private void eleccion_EN(object sender, PointerRoutedEventArgs e)
+        {
+            idioma = 1;
+        }
+
+        private void eleccion_FRA(object sender, PointerRoutedEventArgs e)
+        {
+            idioma = 0;
+        }
+
+        private void eleccion_KO(object sender, PointerRoutedEventArgs e)
+        {
+            idioma = 2;
+        }
+
+        public int eleccion()
+        {
+            return idioma;
         }
     }
 }

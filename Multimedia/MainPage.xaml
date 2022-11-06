@@ -9,6 +9,46 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <NavigationView x:Name="NavView" IsSettingsVisible="False" Loaded="NavView_Loaded" ItemInvoked="NavView_ItemInvoked" BackRequested="NavView_BackRequested" PaneClosing="cerrandoPanel" PaneOpening="abriendoPanel" >
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Name="menu" Tag="menu" Content="Menu">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE80F;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Name="pregunta1" Tag="pregunta1" Content="Pregunta 1">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Name="pregunta2" Tag="pregunta2" Content="Pregunta 2">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Name="pregunta3" Tag="pregunta3" Content="Pregunta 3">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Name="pregunta4" Tag="pregunta4" Content="Pregunta 4">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Name="pregunta5" Tag="pregunta5" Content="Pregunta 5">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+
+            <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Frame x:Name="ContentFrame" NavigationFailed="ContentFrame_NavigationFailed" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            </ScrollViewer>
+
+        </NavigationView>
+
 
     </Grid>
 </Page>

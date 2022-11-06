@@ -15,10 +15,10 @@
             <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold"/>
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="361,271,0,0" Text="5 / 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
-        <Button Content="I feel you" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I need you" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I miss you" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button Content="I hear you" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion1" Content="I see you" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion2" Content="I need you" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion3" Content="I miss you" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="opcion4" Content="I hear you" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
 </UserControl>
