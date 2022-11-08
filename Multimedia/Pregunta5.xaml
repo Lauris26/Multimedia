@@ -1,4 +1,4 @@
-﻿<UserControl
+﻿<Page
     x:Class="Multimedia.Pregunta5"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -6,19 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    d:DesignHeight="300"
-    d:DesignWidth="400">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="521" Source="/Assets/pregunta.jpg"/>
-        <Grid HorizontalAlignment="Center" Height="71" Margin="0,10,0,0" VerticalAlignment="Top" Width="380">
-            <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="1001" VerticalAlignment="Top" Width="1480" Source="/Assets/pregunta.jpg" Margin="0,4,0,0"/>
+        <Grid HorizontalAlignment="Center" Height="990" Margin="0,10,0,0" VerticalAlignment="Top" Width="1499">
+            <TextBox HorizontalAlignment="Center" Height="149" Margin="0,10,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1479" FontWeight="Bold" FontSize="50"/>
+            <TextBlock HorizontalAlignment="Left" Height="73" Margin="1271,839,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="48"><Run Text="5"/><Run Text=" / 5"/></TextBlock>
+            <Button x:Name="opcion1" Content="I see you" Height="114" Margin="0,214,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+            <Button x:Name="opcion2" Content="I need you" Height="116" Margin="0,348,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+            <Button x:Name="opcion3" Content="I miss you" Height="115" Margin="0,483,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+            <Button x:Name="opcion4" Content="I hear you" Height="114" Margin="0,619,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Height="35" Margin="361,271,0,0" Text="5 / 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
-        <Button x:Name="opcion1" Content="I see you" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button x:Name="opcion2" Content="I need you" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button x:Name="opcion3" Content="I miss you" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button x:Name="opcion4" Content="I hear you" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
-</UserControl>
+</Page>

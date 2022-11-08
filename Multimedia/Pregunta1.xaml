@@ -1,4 +1,4 @@
-﻿<UserControl
+﻿<Page
     x:Class="Multimedia.Pregunta1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -6,19 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    d:DesignHeight="300"
-    d:DesignWidth="400">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="521" Source="/Assets/pregunta.jpg"/>
-        <Grid HorizontalAlignment="Center" Height="71" Margin="0,10,0,0" VerticalAlignment="Top" Width="380">
-            <TextBox HorizontalAlignment="Left" Height="51" Margin="10,0,0,0" Text="¿Cuál es la traducción correcta de &quot;hola&quot;?" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="1252" VerticalAlignment="Center" Width="1688" Source="/Assets/pregunta.jpg"/>
+        <Grid HorizontalAlignment="Center" Height="980" VerticalAlignment="Center" Width="1499">
+            <TextBox HorizontalAlignment="Center" Margin="0,10,0,770" Text="¿Cuál es la traducción correcta de &quot;Hola &quot;?" TextWrapping="Wrap" Width="1479" FontWeight="Bold" FontSize="60"/>
+            <TextBlock HorizontalAlignment="Left" Height="73" Margin="1330,860,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="48"><Run Text="1"/><Run Text=" / 5"/></TextBlock>
+            <Button x:Name="opcion1" Content="Hello" Height="117" Width="1353" FontSize="48" Margin="46,241,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="opcion2" Content="Hi" Height="117" Margin="0,381,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center"/>
+            <Button x:Name="opcion3" Content="Hellow" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48"/>
+            <Button x:Name="opcion4" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Height="35" Margin="361,271,0,0" Text="1 / 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
-        <Button x:Name="opcion1" Content="Hello" Height="29" Margin="30,108,0,0" VerticalAlignment="Top" Width="317" Click="Button_Click"/>
-        <Button x:Name="opcion2" Content="Hi" Height="29" Margin="30,142,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button x:Name="opcion3" Content="Hellow" Height="29" Margin="30,176,0,0" VerticalAlignment="Top" Width="317"/>
-        <Button x:Name="opcion4" Content="The first and second answere are true" Height="29" Margin="30,210,0,0" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
-</UserControl>
+</Page>

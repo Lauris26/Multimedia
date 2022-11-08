@@ -15,11 +15,14 @@ using Windows.UI.Xaml.Navigation;
 using System.Resources;
 using Multimedia.Properties;
 
-// La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
+// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Multimedia
 {
-    public sealed partial class Pregunta1 : UserControl
+    /// <summary>
+    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
+    /// </summary>
+    public sealed partial class Pregunta1 : Page
     {
         public Pregunta1()
         {
@@ -52,11 +55,10 @@ namespace Multimedia
 
         private void cambioLabels(ResourceManager testresource)
         {
-            opcion1.Content = testresource.GetString("String1");
-            opcion2.Content = testresource.GetString("String2");
-            opcion3.Content = testresource.GetString("String3");
-            opcion4.Content = testresource.GetString("String4");
+            opcion1.Content = testresource.GetString("String5");
+            opcion2.Content = testresource.GetString("String6");
+            opcion3.Content = testresource.GetString("String7");
+            opcion4.Content = testresource.GetString("String8");
         }
-
     }
 }

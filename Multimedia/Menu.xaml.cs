@@ -15,17 +15,20 @@ using Windows.UI.Xaml.Navigation;
 using System.Resources;
 using Multimedia.Properties;
 
-// La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
+
+// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Multimedia
 {
-    public sealed partial class Menu : UserControl
+    /// <summary>
+    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
+    /// </summary>
+    public sealed partial class Menu : Page
     {
         public Menu()
         {
             this.InitializeComponent();
         }
-
         int idioma = 0;
 
         private void eleccion_IT(object sender, PointerRoutedEventArgs e)
