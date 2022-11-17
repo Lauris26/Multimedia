@@ -29,26 +29,27 @@ namespace Multimedia
         {
             this.InitializeComponent();
         }
+
         int idioma = 0;
 
-        private void eleccion_IT(object sender, PointerRoutedEventArgs e)
-        {
-            idioma = 3;
-        }
-
-        private void eleccion_EN(object sender, PointerRoutedEventArgs e)
+        private void eleccion_FRA(object sender, RoutedEventArgs e)
         {
             idioma = 1;
         }
 
-        private void eleccion_FRA(object sender, PointerRoutedEventArgs e)
-        {
-            idioma = 0;
-        }
-
-        private void eleccion_KO(object sender, PointerRoutedEventArgs e)
+        private void eleccion_EN(object sender, RoutedEventArgs e)
         {
             idioma = 2;
+        }
+
+        private void eleccion_IT(object sender, RoutedEventArgs e)
+        {
+            idioma = 3;
+        }
+
+        private void eleccion_KO(object sender, RoutedEventArgs e)
+        {
+            idioma = 4;
         }
 
         public int eleccion()

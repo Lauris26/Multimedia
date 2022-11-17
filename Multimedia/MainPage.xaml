@@ -11,11 +11,6 @@
     <Grid>
         <NavigationView x:Name="NavView" IsSettingsVisible="False" Loaded="NavView_Loaded" ItemInvoked="NavView_ItemInvoked" BackRequested="NavView_BackRequested">
             <NavigationView.MenuItems>
-                <NavigationViewItem x:Name="menu" Tag="menu" Content="Menu">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE80F;" />
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
                 <NavigationViewItem x:Name="pregunta1" Tag="pregunta1" Content="Pregunta 1">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
@@ -49,6 +44,13 @@
 
         </NavigationView>
 
+        <ComboBox x:Name="seleccionIdioma" PlaceholderText="Elegir idioma a aprender" Margin="10,290,0,0" Width="261" SelectionChanged="idioma" >
 
+            <x:String>Italiano</x:String>
+            <x:String>Ingles</x:String>
+            <x:String>Frances</x:String>
+            <x:String>Coreano</x:String>
+        </ComboBox>
+        
     </Grid>
 </Page>

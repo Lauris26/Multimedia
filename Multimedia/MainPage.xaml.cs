@@ -40,7 +40,7 @@ namespace Multimedia
 
         private readonly List<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
         {
-            ("menu", typeof(Menu)),
+            //("menu", typeof(Menu)),
             ("pregunta1", typeof(Pregunta1)),
             ("pregunta2", typeof(Pregunta2)),
             ("pregunta3", typeof(Pregunta3)),
@@ -134,7 +134,7 @@ namespace Multimedia
             }
         }
 
-        private void Traduccion_IT()
+        public void Traduccion_IT()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesIT));
 
@@ -164,7 +164,7 @@ namespace Multimedia
         }
 
         
-        private void Traduccion_EN()
+        public void Traduccion_EN()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesEN));
 
@@ -193,7 +193,7 @@ namespace Multimedia
             }
         }
 
-        private void Traduccion_KO()
+        public void Traduccion_KO()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesKO));
 
@@ -222,7 +222,7 @@ namespace Multimedia
             }
         }
 
-        private void Traduccion_FRA()
+        public void Traduccion_FRA()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesFRA));
 
@@ -251,24 +251,23 @@ namespace Multimedia
             }
         }
 
-        private void Idioma (object sender, SelectionChangedEventArgs e)
+
+        private void idioma(object sender, SelectionChangedEventArgs e)
         {
-            Menu pagina = (Menu)ContentFrame.Content;
-            if (pagina.eleccion() == 0)
+            if (seleccionIdioma.SelectedIndex == 0)
             {
-                Traduccion_FRA();
+                Traduccion_IT();
             }
-            else if (pagina.eleccion() == 1)
+            else if (seleccionIdioma.SelectedIndex == 1)
             {
                 Traduccion_EN();
             }
-            else if (pagina.eleccion() == 2)
+            else if (seleccionIdioma.SelectedIndex == 2)
+            {
+                Traduccion_FRA();
+            }else
             {
                 Traduccion_KO();
-            }
-            else if (pagina.eleccion() == 3)
-            {
-                Traduccion_IT();
             }
         }
     }

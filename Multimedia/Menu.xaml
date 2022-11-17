@@ -9,15 +9,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/APRENDER-IDIOMAS.jpg" Width="2167" Height="1458"/>
-        <Grid HorizontalAlignment="Center" Height="1004" VerticalAlignment="Center" Width="1480">
-            <TextBox HorizontalAlignment="Left" Height="146" Margin="28,22,0,0" Text="¿Qué idioma quieres aprender hoy?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1348" FontWeight="Bold" FontSize="72"/>
-            <Image x:Name="frances" HorizontalAlignment="Left" Height="155" Margin="367,303,0,0" VerticalAlignment="Top" Width="302" Source="/Assets/Francia3.png" PointerReleased="eleccion_FRA"/>
-            <Image x:Name="ingles" HorizontalAlignment="Left" Height="155" Margin="937,303,0,0" VerticalAlignment="Top" Width="269" Source="/Assets/inglaterra.png" PointerReleased="eleccion_EN"/>
-            <Image x:Name="coreano" HorizontalAlignment="Left" Height="194" Margin="342,535,0,0" VerticalAlignment="Top" Width="374" Source="/Assets/korea.png" PointerReleased="eleccion_KO"/>
-            <Image x:Name="italiano" HorizontalAlignment="Left" Height="194" Margin="903,535,0,0" VerticalAlignment="Top" Width="425" Source="/Assets/italia.png" PointerReleased="eleccion_IT"/>
-        </Grid>
-        
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Height="973" RenderTransformOrigin="0.5,0.5" Width="1462" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Canvas.RenderTransform>
+                <CompositeTransform ScaleX="-1" ScaleY="-1" Rotation="180.11"/>
+            </Canvas.RenderTransform>
+
+            <Grid Height="1004" Width="1480">
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/APRENDER-IDIOMAS.jpg" Width="2167" Height="1458"/>
+                <TextBox HorizontalAlignment="Left" Height="146" Margin="28,22,0,0" Text="¿Qué idioma quieres aprender hoy?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1348" FontWeight="Bold" FontSize="72"/>
+                <Button x:Name="ingles" Content="Ingles" Height="190" Margin="223,310,0,0" VerticalAlignment="Top" Width="326" Click="eleccion_EN"/>
+                <Button x:Name="frances" Content="Frances" Height="190" Margin="881,310,0,0" VerticalAlignment="Top" Width="326" Click="eleccion_FRA"/>
+                <Button x:Name="coreano" Content="Coreano" Height="190" Margin="223,656,0,0" VerticalAlignment="Top" Width="326" Click="eleccion_KO"/>
+                <Button x:Name="italiano" Content="Italiano" Height="190" Margin="881,651,0,0" VerticalAlignment="Top" Width="326" Click="eleccion_IT"/>
+            </Grid>
+
+        </Canvas>
 
     </Grid>
 </Page>

@@ -9,16 +9,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="1001" VerticalAlignment="Top" Width="1480" Source="/Assets/pregunta.jpg" Margin="0,4,0,0"/>
-        <Grid HorizontalAlignment="Center" Height="990" Margin="0,10,0,0" VerticalAlignment="Top" Width="1499">
-            <TextBox HorizontalAlignment="Center" Height="149" Margin="0,10,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1479" FontWeight="Bold" FontSize="50"/>
-            <TextBlock HorizontalAlignment="Left" Height="73" Margin="1271,839,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="48"><Run Text="5"/><Run Text=" / 5"/></TextBlock>
-            <Button x:Name="opcion1" Content="I see you" Height="114" Margin="0,214,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
-            <Button x:Name="opcion2" Content="I need you" Height="116" Margin="0,348,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
-            <Button x:Name="opcion3" Content="I miss you" Height="115" Margin="0,483,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
-            <Button x:Name="opcion4" Content="I hear you" Height="114" Margin="0,619,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Height="980" Width="1500">
 
-        </Grid>
+            <Grid Height="990" Width="1499">
+                <Image HorizontalAlignment="Center" Height="1001" VerticalAlignment="Top" Width="1480" Source="/Assets/pregunta.jpg" Margin="0,4,0,0"/>
+                <TextBox HorizontalAlignment="Center" Height="149" Margin="0,10,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1479" FontWeight="Bold" FontSize="50"/>
+                <TextBlock HorizontalAlignment="Left" Height="73" Margin="1271,839,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="48"><Run Text="5"/><Run Text=" / 5"/></TextBlock>
+                <Button x:Name="opcion1" Content="I see you" Height="114" Margin="0,214,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+                <Button x:Name="opcion2" Content="I need you" Height="116" Margin="0,348,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+                <Button x:Name="opcion3" Content="I miss you" Height="115" Margin="0,483,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+                <Button x:Name="opcion4" Content="I hear you" Height="114" Margin="0,619,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48"/>
+
+            </Grid>
+
+        </Canvas>
 
     </Grid>
 </Page>
