@@ -40,7 +40,7 @@ namespace Multimedia
 
         private readonly List<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
         {
-            //("menu", typeof(Menu)),
+            ("inicio", typeof (Pagina1)),
             ("pregunta1", typeof(Pregunta1)),
             ("pregunta2", typeof(Pregunta2)),
             ("pregunta3", typeof(Pregunta3)),
@@ -52,7 +52,7 @@ namespace Multimedia
         {
             ContentFrame.Navigated += On_Navigated;
             NavView.SelectedItem = NavView.MenuItems[0];
-            NavView_Navigate("menu", new EntranceNavigationTransitionInfo());
+            NavView_Navigate("inicio", new EntranceNavigationTransitionInfo());
 
             Window.Current.CoreWindow.Dispatcher.AcceleratorKeyActivated += CoreDispatcher_AcceleratorKeyActivated;
             Window.Current.CoreWindow.PointerPressed += CoreWindow_PointerPressed;
@@ -75,6 +75,7 @@ namespace Multimedia
             _page = item.Page;
 
             var preNavPageType = ContentFrame.CurrentSourcePageType;
+            
 
             if (!(_page is null) && !Type.Equals(preNavPageType, _page))
             {
@@ -161,6 +162,11 @@ namespace Multimedia
                 Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
                 pagina.traduIT();
             }
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            {
+                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
+                pagina.traduIT();
+            }
         }
 
         
@@ -191,6 +197,12 @@ namespace Multimedia
                 Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
                 pagina.traduEN();
             }
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            {
+                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
+                pagina.traduEN();
+            }
+
         }
 
         public void Traduccion_KO()
@@ -218,6 +230,11 @@ namespace Multimedia
             if (ContentFrame.CurrentSourcePageType.Name == "Pregunta4")
             {
                 Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
+                pagina.traduKO();
+            }
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            {
+                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
                 pagina.traduKO();
             }
         }
@@ -249,8 +266,12 @@ namespace Multimedia
                 Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
                 pagina.traduFRA();
             }
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            {
+                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
+                pagina.traduFRA();
+            }
         }
-
 
         private void idioma(object sender, SelectionChangedEventArgs e)
         {

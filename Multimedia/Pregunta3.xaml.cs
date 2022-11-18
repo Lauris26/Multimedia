@@ -58,6 +58,55 @@ namespace Multimedia
             opcion2.Content = testresource.GetString("String10");
             opcion3.Content = testresource.GetString("String11");
             opcion4.Content = testresource.GetString("String12");
+            opcion1Respuesta.Content = testresource.GetString("String9");
+            opcion2Respuesta.Content = testresource.GetString("String10");
+            opcion3Respuesta.Content = testresource.GetString("String11");
+            opcion4Respuesta.Content = testresource.GetString("String12");
+
+            opcion1Respuesta.Visibility = Visibility.Collapsed;
+            opcion2Respuesta.Visibility = Visibility.Collapsed;
+            opcion3Respuesta.Visibility = Visibility.Collapsed;
+            opcion4Respuesta.Visibility = Visibility.Collapsed;
+        }
+
+        private void opcion1_Click(object sender, RoutedEventArgs e)
+        {
+            opcion1Respuesta.Visibility = Visibility.Visible;
+            opcion2Respuesta.Visibility = Visibility.Visible;
+            opcion3Respuesta.Visibility = Visibility.Visible;
+            opcion4Respuesta.Visibility = Visibility.Visible;
+        }
+
+        private void opcion2_Click(object sender, RoutedEventArgs e)
+        {
+            opcion1Respuesta.Visibility = Visibility.Visible;
+            opcion2Respuesta.Visibility = Visibility.Visible;
+            opcion3Respuesta.Visibility = Visibility.Visible;
+            opcion4Respuesta.Visibility = Visibility.Visible;
+        }
+
+        private void opcion3_Click(object sender, RoutedEventArgs e)
+        {
+            opcion1Respuesta.Visibility = Visibility.Visible;
+            opcion2Respuesta.Visibility = Visibility.Visible;
+            opcion3Respuesta.Visibility = Visibility.Visible;
+            opcion4Respuesta.Visibility = Visibility.Visible;
+        }
+
+        private void opcion4_Click(object sender, RoutedEventArgs e)
+        {
+            opcion1Respuesta.Visibility = Visibility.Visible;
+            opcion2Respuesta.Visibility = Visibility.Visible;
+            opcion3Respuesta.Visibility = Visibility.Visible;
+            opcion4Respuesta.Visibility = Visibility.Visible;
+        }
+
+        private void reset_Click(object sender, RoutedEventArgs e)
+        {
+            opcion1Respuesta.Visibility = Visibility.Collapsed;
+            opcion2Respuesta.Visibility = Visibility.Collapsed;
+            opcion3Respuesta.Visibility = Visibility.Collapsed;
+            opcion4Respuesta.Visibility = Visibility.Collapsed;
         }
     }
 }

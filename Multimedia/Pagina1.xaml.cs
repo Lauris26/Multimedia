@@ -12,9 +12,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using System.Resources;
-using Multimedia.Properties;
-
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -23,38 +20,12 @@ namespace Multimedia
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class Menu : Page
+    public sealed partial class Pagina1 : Page
     {
-        public Menu()
+        public Pagina1()
         {
             this.InitializeComponent();
         }
 
-        int idioma = 0;
-
-        private void eleccion_FRA(object sender, RoutedEventArgs e)
-        {
-            idioma = 1;
-        }
-
-        private void eleccion_EN(object sender, RoutedEventArgs e)
-        {
-            idioma = 2;
-        }
-
-        private void eleccion_IT(object sender, RoutedEventArgs e)
-        {
-            idioma = 3;
-        }
-
-        private void eleccion_KO(object sender, RoutedEventArgs e)
-        {
-            idioma = 4;
-        }
-
-        public int eleccion()
-        {
-            return idioma;
-        }
     }
 }
