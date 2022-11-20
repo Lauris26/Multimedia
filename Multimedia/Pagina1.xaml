@@ -11,10 +11,10 @@
     <Grid>
         <Canvas HorizontalAlignment="Left" Height="852" VerticalAlignment="Top">
             <Image x:Name="fondo" Height="994" Width="2195" Source="/Assets/APRENDER-IDIOMAS.jpg" Canvas.Left="-397"/>
-            <TextBox Height="177" Text="Con este juego vas a poder ver el nivel que tienes en distintos idiomas." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="55"/>
-            <TextBox Height="177" Text="Podrás elegir el idioma en cada pregunta pudiendo elegir varios en la misma pregunta." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="237"/>
-            <TextBox Height="177" Text="Las respuestas correctas aparecerán en verde, las incorrectas en rojo." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="419"/>
-            <TextBox Height="177" Text="Para reiniciar la pregunta solo deberás clicar el botón que pondrá &quot;Reiniciar&quot;, al cambiar de idioma también se reiniciará." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="601"/>
+            <TextBox Height="177" Text="Con este juego vas a poder ver el nivel que tienes en distintos idiomas." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="55" Foreground="Black"/>
+            <TextBox Height="177" Text="Podrás elegir el idioma en cada pregunta pudiendo elegir varios en la misma pregunta." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="237" Foreground="Black"/>
+            <TextBox Height="177" Text="Las respuestas correctas aparecerán en verde, las incorrectas en rojo." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="419" Foreground="Black"/>
+            <TextBox Height="177" Text="Para reiniciar la pregunta solo deberás clicar el botón que pondrá &quot;Reiniciar&quot;, al cambiar de idioma también se reiniciará." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="601" Foreground="Black"/>
 
         </Canvas>
 
