@@ -62,7 +62,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Salut.
+        ///   Busca una cadena traducida similar a Allô.
         /// </summary>
         internal static string String1 {
             get {
@@ -71,7 +71,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ça va bien.
+        ///   Busca una cadena traducida similar a Ok.
         /// </summary>
         internal static string String10 {
             get {
@@ -80,7 +80,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ok.
+        ///   Busca una cadena traducida similar a Ça va bien.
         /// </summary>
         internal static string String11 {
             get {
@@ -89,7 +89,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ils sont tous corrects.
+        ///   Busca una cadena traducida similar a Ça va.
         /// </summary>
         internal static string String12 {
             get {
@@ -98,7 +98,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je t&apos;aime bien.
+        ///   Busca una cadena traducida similar a Je t&apos;aime.
         /// </summary>
         internal static string String13 {
             get {
@@ -107,7 +107,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je t&apos;aime.
+        ///   Busca una cadena traducida similar a Je te sens.
         /// </summary>
         internal static string String14 {
             get {
@@ -116,7 +116,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je te hais.
+        ///   Busca una cadena traducida similar a Je t&apos;aime bien.
         /// </summary>
         internal static string String15 {
             get {
@@ -125,7 +125,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je te sens.
+        ///   Busca una cadena traducida similar a Je te hais.
         /// </summary>
         internal static string String16 {
             get {
@@ -134,7 +134,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a J’ai besoin de vous.
+        ///   Busca una cadena traducida similar a Tu me manques.
         /// </summary>
         internal static string String17 {
             get {
@@ -143,7 +143,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tu me manques.
+        ///   Busca una cadena traducida similar a Je te vois.
         /// </summary>
         internal static string String18 {
             get {
@@ -152,7 +152,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je t’entends.
+        ///   Busca una cadena traducida similar a J’ai besoin de vous.
         /// </summary>
         internal static string String19 {
             get {
@@ -161,7 +161,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Allô.
+        ///   Busca una cadena traducida similar a Allo.
         /// </summary>
         internal static string String2 {
             get {
@@ -170,7 +170,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je te vois.
+        ///   Busca una cadena traducida similar a Je t&apos;entends.
         /// </summary>
         internal static string String20 {
             get {
@@ -179,7 +179,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Allo.
+        ///   Busca una cadena traducida similar a Le premier et le second sont corrects.
         /// </summary>
         internal static string String3 {
             get {
@@ -188,7 +188,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Le premier et le second sont corrects.
+        ///   Busca una cadena traducida similar a Salute.
         /// </summary>
         internal static string String4 {
             get {
@@ -197,7 +197,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je suis.
+        ///   Busca una cadena traducida similar a Désolé.
         /// </summary>
         internal static string String5 {
             get {
@@ -206,7 +206,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Désolé.
+        ///   Busca una cadena traducida similar a Je suis.
         /// </summary>
         internal static string String6 {
             get {
@@ -215,7 +215,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je suis désolé.
+        ///   Busca una cadena traducida similar a Aucun n&apos;est correct.
         /// </summary>
         internal static string String7 {
             get {
@@ -224,7 +224,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Aucun n’est correct.
+        ///   Busca una cadena traducida similar a Je suis désolé.
         /// </summary>
         internal static string String8 {
             get {
@@ -233,7 +233,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ça va.
+        ///   Busca una cadena traducida similar a Ils sont tous corrects.
         /// </summary>
         internal static string String9 {
             get {

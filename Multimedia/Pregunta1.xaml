@@ -9,11 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Image HorizontalAlignment="Center" Height="1252" VerticalAlignment="Center" Width="1688" Source="/Assets/pregunta.jpg" Stretch="UniformToFill"/>
+
         <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Height="979" Width="1500">
 
             <Grid Height="980" Width="1499">
-                <Image HorizontalAlignment="Center" Height="1252" VerticalAlignment="Center" Width="1688" Source="/Assets/pregunta.jpg"/>
-                <TextBox HorizontalAlignment="Center" Margin="0,10,0,770" Text="¿Cuál es la traducción correcta de &quot;Hola &quot;?" TextWrapping="Wrap" Width="1479" FontWeight="Bold" FontSize="60"/>
+                <TextBlock HorizontalAlignment="Left" Margin="73,75,0,798" Text="¿Cuál es la traducción correcta de &quot;Hola &quot;?" TextWrapping="Wrap" Width="1479" FontWeight="Bold" FontSize="60"/>
                 <TextBlock HorizontalAlignment="Left" Height="73" Margin="1330,860,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="48"><Run Text="1"/><Run Text=" / 5"/></TextBlock>
                 <Button x:Name="opcion1" Content="Hello" Height="117" Width="1353" FontSize="48" Margin="0,239,0,0" VerticalAlignment="Top" Click="opcion1_Click" HorizontalAlignment="Center" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>

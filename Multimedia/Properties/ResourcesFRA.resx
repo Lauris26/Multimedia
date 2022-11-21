@@ -118,83 +118,83 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="String1" xml:space="preserve">
-    <value>Salut</value>
-    <comment>pregunta1</comment>
-  </data>
-  <data name="String10" xml:space="preserve">
-    <value>Ça va bien</value>
-    <comment>pregunta3</comment>
-  </data>
-  <data name="String11" xml:space="preserve">
-    <value>Ok</value>
-    <comment>pregunta3</comment>
-  </data>
-  <data name="String12" xml:space="preserve">
-    <value>Ils sont tous corrects</value>
-    <comment>pregunta3</comment>
-  </data>
-  <data name="String13" xml:space="preserve">
-    <value>Je t'aime bien</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String14" xml:space="preserve">
-    <value>Je t'aime</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String15" xml:space="preserve">
-    <value>Je te hais</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String16" xml:space="preserve">
-    <value>Je te sens</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String17" xml:space="preserve">
-    <value>J’ai besoin de vous</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String18" xml:space="preserve">
-    <value>Tu me manques</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String19" xml:space="preserve">
-    <value>Je t’entends</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String2" xml:space="preserve">
     <value>Allô</value>
     <comment>pregunta1</comment>
   </data>
-  <data name="String20" xml:space="preserve">
+  <data name="String10" xml:space="preserve">
+    <value>Ok</value>
+    <comment>pregunta3</comment>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>Ça va bien</value>
+    <comment>pregunta3</comment>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>Ça va</value>
+    <comment>pregunta3</comment>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>Je t'aime</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>Je te sens</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>Je t'aime bien</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>Je te hais</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>Tu me manques</value>
+    <comment>pregunta5</comment>
+  </data>
+  <data name="String18" xml:space="preserve">
     <value>Je te vois</value>
     <comment>pregunta5</comment>
   </data>
-  <data name="String3" xml:space="preserve">
+  <data name="String19" xml:space="preserve">
+    <value>J’ai besoin de vous</value>
+    <comment>pregunta5</comment>
+  </data>
+  <data name="String2" xml:space="preserve">
     <value>Allo</value>
     <comment>pregunta1</comment>
   </data>
-  <data name="String4" xml:space="preserve">
+  <data name="String20" xml:space="preserve">
+    <value>Je t'entends</value>
+    <comment>pregunta5</comment>
+  </data>
+  <data name="String3" xml:space="preserve">
     <value>Le premier et le second sont corrects</value>
     <comment>pregunta1</comment>
   </data>
-  <data name="String5" xml:space="preserve">
-    <value>Je suis</value>
-    <comment>pregunta2</comment>
+  <data name="String4" xml:space="preserve">
+    <value>Salute</value>
+    <comment>pregunta1</comment>
   </data>
-  <data name="String6" xml:space="preserve">
+  <data name="String5" xml:space="preserve">
     <value>Désolé</value>
     <comment>pregunta2</comment>
   </data>
+  <data name="String6" xml:space="preserve">
+    <value>Je suis</value>
+    <comment>pregunta2</comment>
+  </data>
   <data name="String7" xml:space="preserve">
-    <value>Je suis désolé</value>
+    <value>Aucun n'est correct</value>
     <comment>pregunta2</comment>
   </data>
   <data name="String8" xml:space="preserve">
-    <value>Aucun n’est correct</value>
+    <value>Je suis désolé</value>
     <comment>pregunta2</comment>
   </data>
   <data name="String9" xml:space="preserve">
-    <value>Ça va</value>
+    <value>Ils sont tous corrects</value>
     <comment>pregunta3</comment>
   </data>
 </root>
