@@ -62,7 +62,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ciao.
+        ///   Busca una cadena traducida similar a Alo.
         /// </summary>
         internal static string String1 {
             get {
@@ -71,7 +71,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Bene.
+        ///   Busca una cadena traducida similar a Va bene.
         /// </summary>
         internal static string String10 {
             get {
@@ -80,7 +80,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ok.
+        ///   Busca una cadena traducida similar a Sono tutti corretti.
         /// </summary>
         internal static string String11 {
             get {
@@ -89,7 +89,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sono tutti corretti.
+        ///   Busca una cadena traducida similar a Bene.
         /// </summary>
         internal static string String12 {
             get {
@@ -98,7 +98,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi piaci.
+        ///   Busca una cadena traducida similar a Ti amo.
         /// </summary>
         internal static string String13 {
             get {
@@ -107,7 +107,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti amo.
+        ///   Busca una cadena traducida similar a Ti sento.
         /// </summary>
         internal static string String14 {
             get {
@@ -116,7 +116,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti odio.
+        ///   Busca una cadena traducida similar a Mi piaci.
         /// </summary>
         internal static string String15 {
             get {
@@ -125,7 +125,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti sento.
+        ///   Busca una cadena traducida similar a Ti odio.
         /// </summary>
         internal static string String16 {
             get {
@@ -134,7 +134,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ho bisogno di te.
+        ///   Busca una cadena traducida similar a Mi manqui.
         /// </summary>
         internal static string String17 {
             get {
@@ -143,7 +143,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi manchi.
+        ///   Busca una cadena traducida similar a Ti vedo.
         /// </summary>
         internal static string String18 {
             get {
@@ -152,7 +152,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti sento.
+        ///   Busca una cadena traducida similar a Ho bisogno di te.
         /// </summary>
         internal static string String19 {
             get {
@@ -161,7 +161,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pronto.
+        ///   Busca una cadena traducida similar a Ciao.
         /// </summary>
         internal static string String2 {
             get {
@@ -170,7 +170,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti vedo.
+        ///   Busca una cadena traducida similar a Ti sento.
         /// </summary>
         internal static string String20 {
             get {
@@ -179,7 +179,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alo.
+        ///   Busca una cadena traducida similar a Due di questi sono corretti.
         /// </summary>
         internal static string String3 {
             get {
@@ -188,7 +188,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a La prima e la seconda sono corretti.
+        ///   Busca una cadena traducida similar a Pronto.
         /// </summary>
         internal static string String4 {
             get {
@@ -197,7 +197,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi dispiache.
+        ///   Busca una cadena traducida similar a Nessuno è corretto.
         /// </summary>
         internal static string String5 {
             get {
@@ -206,7 +206,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Dispiace.
+        ///   Busca una cadena traducida similar a Mi dispiace.
         /// </summary>
         internal static string String6 {
             get {
@@ -215,7 +215,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi dispiace.
+        ///   Busca una cadena traducida similar a Mi dispiache.
         /// </summary>
         internal static string String7 {
             get {
@@ -224,7 +224,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Nessuno è corretto.
+        ///   Busca una cadena traducida similar a Dispiace.
         /// </summary>
         internal static string String8 {
             get {
@@ -233,7 +233,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Va bene.
+        ///   Busca una cadena traducida similar a Ok.
         /// </summary>
         internal static string String9 {
             get {

@@ -21,9 +21,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion1Respuesta" Content="I like you" Height="117" Margin="0,241,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion1Fallo" Content="I like you" Height="117" Margin="0,241,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFA0C0C"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion1Correcta" Content="I like you" Height="117" Margin="0,241,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="opcion2" Content="I love you" Height="117" Margin="0,378,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion2_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
@@ -31,7 +36,12 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion2Respuesta" Content="I love you" Height="117" Margin="0,378,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion2Fallo" Content="I love you" Height="117" Margin="0,378,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CCFA0C0C"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion2Correcta" Content="I love you" Height="117" Margin="0,378,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
@@ -41,9 +51,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion3Respuesta" Content="I hate you" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion3Fallo" Content="I hate you" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFA0C0C"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion3Correcta" Content="I hate you" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="opcion4" Content="I feel you" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion4_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
@@ -51,9 +66,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion4Respuesta" Content="I feel you" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion4Fallo" Content="I feel you" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFA0C0C"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion4Correcta" Content="I feel you" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="reset" Content="Reiniciar" Height="90" Margin="572,834,0,0" VerticalAlignment="Top" Width="391" FontSize="48" Click="reset_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707"/>

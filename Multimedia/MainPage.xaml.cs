@@ -33,6 +33,8 @@ namespace Multimedia
             this.InitializeComponent();
         }
 
+        int eleccion = 0;
+
         private void ContentFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
             throw new Exception("Failed to load Page " + e.SourcePageType.FullName);

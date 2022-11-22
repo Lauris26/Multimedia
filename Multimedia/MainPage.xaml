@@ -50,12 +50,11 @@
         </NavigationView>
 
         <ComboBox x:Name="seleccionIdioma" PlaceholderText="Elegir idioma a aprender" Margin="10,333,0,0" Width="261" SelectionChanged="idioma" >
-
             <x:String>Italiano</x:String>
             <x:String>Ingles</x:String>
             <x:String>Frances</x:String>
             <x:String>Coreano</x:String>
         </ComboBox>
-        
+
     </Grid>
 </Page>

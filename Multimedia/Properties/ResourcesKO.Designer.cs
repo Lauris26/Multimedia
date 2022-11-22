@@ -62,7 +62,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 안녕하세요 (Annyeonghaseyo).
+        ///   Busca una cadena traducida similar a 그 중 두 가지가 사실입니다 (geu jiong du gajiga sasiripnida).
         /// </summary>
         internal static string String1 {
             get {
@@ -71,7 +71,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 괜찮아 (gwaenchanha).
+        ///   Busca una cadena traducida similar a 모든 답이 맞다 (modeun dabi majda).
         /// </summary>
         internal static string String10 {
             get {
@@ -80,7 +80,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 좋습니다 (johseupnida).
+        ///   Busca una cadena traducida similar a 괜찮아요 (gwaenchanhayo).
         /// </summary>
         internal static string String11 {
             get {
@@ -89,7 +89,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 모든 답이 맞다 (modeun dabi majda).
+        ///   Busca una cadena traducida similar a 좋습니다 (johseupnida).
         /// </summary>
         internal static string String12 {
             get {
@@ -98,7 +98,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 좋아해요 (johahaeyo).
+        ///   Busca una cadena traducida similar a 너를 느껴 (neoreul neukkyeo).
         /// </summary>
         internal static string String13 {
             get {
@@ -107,7 +107,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 사랑해요 (saranghaeyo).
+        ///   Busca una cadena traducida similar a 싫어요 (silheoyo).
         /// </summary>
         internal static string String14 {
             get {
@@ -116,7 +116,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 싫어요 (silheoyo).
+        ///   Busca una cadena traducida similar a 사랑해요 (saranghaeyo).
         /// </summary>
         internal static string String15 {
             get {
@@ -125,7 +125,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 너를 느껴 (neoreul neukkyeo).
+        ///   Busca una cadena traducida similar a 좋아해요 (johahaeyo).
         /// </summary>
         internal static string String16 {
             get {
@@ -134,7 +134,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 당신이 필요해요 (dangsini  piryohaeyo).
+        ///   Busca una cadena traducida similar a 당신이 보여요 (dangsini boyeoyo).
         /// </summary>
         internal static string String17 {
             get {
@@ -143,7 +143,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 보고 싶어요 (bogo sipeoyo).
+        ///   Busca una cadena traducida similar a 들려요 (deullyeoyo).
         /// </summary>
         internal static string String18 {
             get {
@@ -152,7 +152,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 들려요 (deullyeoyo).
+        ///   Busca una cadena traducida similar a 보고 싶어요 (bogo sipeoyo).
         /// </summary>
         internal static string String19 {
             get {
@@ -161,7 +161,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 안녕 (Annyeong).
+        ///   Busca una cadena traducida similar a 안녕하세요 (Annyeonghaseyo).
         /// </summary>
         internal static string String2 {
             get {
@@ -170,7 +170,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 당신이 보여요 (dangsini boyeoyo).
+        ///   Busca una cadena traducida similar a 당신이 필요해요 (dangsini  piryohaeyo).
         /// </summary>
         internal static string String20 {
             get {
@@ -179,7 +179,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 안녀 (Annyeo).
+        ///   Busca una cadena traducida similar a 안녕 (Annyeong).
         /// </summary>
         internal static string String3 {
             get {
@@ -188,7 +188,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 첫 번째와 두 번째가 맞습니다 (cheot beonjjaewa du beonjjaega majseupnida).
+        ///   Busca una cadena traducida similar a 안녀 (Annyeo).
         /// </summary>
         internal static string String4 {
             get {
@@ -197,7 +197,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 가로등 기둥 (garodeung gidung).
+        ///   Busca una cadena traducida similar a 미안해 (mianhae).
         /// </summary>
         internal static string String5 {
             get {
@@ -206,7 +206,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 시계 (sigye).
+        ///   Busca una cadena traducida similar a 아무 것도 올바르지 않습니다 (amu geosdo olvarze anhseupnida).
         /// </summary>
         internal static string String6 {
             get {
@@ -215,7 +215,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 미안해 (mianhae).
+        ///   Busca una cadena traducida similar a 가로등 기둥 (garodeung gidung).
         /// </summary>
         internal static string String7 {
             get {
@@ -224,7 +224,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 아무 것도 올바르지 않습니다 (amu geosdo olvarze anhseupnida).
+        ///   Busca una cadena traducida similar a 시계 (sigye).
         /// </summary>
         internal static string String8 {
             get {
@@ -233,7 +233,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 괜찮아요 (gwaenchanhayo).
+        ///   Busca una cadena traducida similar a 괜찮아 (gwaenchanha).
         /// </summary>
         internal static string String9 {
             get {

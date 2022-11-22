@@ -118,83 +118,83 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="String1" xml:space="preserve">
-    <value>안녕하세요 (Annyeonghaseyo)</value>
+    <value>그 중 두 가지가 사실입니다 (geu jiong du gajiga sasiripnida)</value>
     <comment>pregunta1</comment>
   </data>
   <data name="String10" xml:space="preserve">
-    <value>괜찮아 (gwaenchanha)</value>
-    <comment>pregunta3</comment>
-  </data>
-  <data name="String11" xml:space="preserve">
-    <value>좋습니다 (johseupnida)</value>
-    <comment>pregunta3</comment>
-  </data>
-  <data name="String12" xml:space="preserve">
     <value>모든 답이 맞다 (modeun dabi majda)</value>
     <comment>pregunta3</comment>
   </data>
+  <data name="String11" xml:space="preserve">
+    <value>괜찮아요 (gwaenchanhayo)</value>
+    <comment>pregunta3</comment>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>좋습니다 (johseupnida)</value>
+    <comment>pregunta3</comment>
+  </data>
   <data name="String13" xml:space="preserve">
-    <value>좋아해요 (johahaeyo)</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String14" xml:space="preserve">
-    <value>사랑해요 (saranghaeyo)</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String15" xml:space="preserve">
-    <value>싫어요 (silheoyo)</value>
-    <comment>pregunta4</comment>
-  </data>
-  <data name="String16" xml:space="preserve">
     <value>너를 느껴 (neoreul neukkyeo)</value>
     <comment>pregunta4</comment>
   </data>
+  <data name="String14" xml:space="preserve">
+    <value>싫어요 (silheoyo)</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>사랑해요 (saranghaeyo)</value>
+    <comment>pregunta4</comment>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>좋아해요 (johahaeyo)</value>
+    <comment>pregunta4</comment>
+  </data>
   <data name="String17" xml:space="preserve">
-    <value>당신이 필요해요 (dangsini  piryohaeyo)</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String18" xml:space="preserve">
-    <value>보고 싶어요 (bogo sipeoyo)</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String19" xml:space="preserve">
-    <value>들려요 (deullyeoyo)</value>
-    <comment>pregunta5</comment>
-  </data>
-  <data name="String2" xml:space="preserve">
-    <value>안녕 (Annyeong)</value>
-    <comment>pregunta1</comment>
-  </data>
-  <data name="String20" xml:space="preserve">
     <value>당신이 보여요 (dangsini boyeoyo)</value>
     <comment>pregunta5</comment>
   </data>
+  <data name="String18" xml:space="preserve">
+    <value>들려요 (deullyeoyo)</value>
+    <comment>pregunta5</comment>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>보고 싶어요 (bogo sipeoyo)</value>
+    <comment>pregunta5</comment>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>안녕하세요 (Annyeonghaseyo)</value>
+    <comment>pregunta1</comment>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>당신이 필요해요 (dangsini  piryohaeyo)</value>
+    <comment>pregunta5</comment>
+  </data>
   <data name="String3" xml:space="preserve">
-    <value>안녀 (Annyeo)</value>
+    <value>안녕 (Annyeong)</value>
     <comment>pregunta1</comment>
   </data>
   <data name="String4" xml:space="preserve">
-    <value>첫 번째와 두 번째가 맞습니다 (cheot beonjjaewa du beonjjaega majseupnida)</value>
+    <value>안녀 (Annyeo)</value>
     <comment>pregunta1</comment>
   </data>
   <data name="String5" xml:space="preserve">
-    <value>가로등 기둥 (garodeung gidung)</value>
-    <comment>pregunta2</comment>
-  </data>
-  <data name="String6" xml:space="preserve">
-    <value>시계 (sigye)</value>
-    <comment>pregunta2</comment>
-  </data>
-  <data name="String7" xml:space="preserve">
     <value>미안해 (mianhae)</value>
     <comment>pregunta2</comment>
   </data>
-  <data name="String8" xml:space="preserve">
+  <data name="String6" xml:space="preserve">
     <value>아무 것도 올바르지 않습니다 (amu geosdo olvarze anhseupnida)</value>
     <comment>pregunta2</comment>
   </data>
+  <data name="String7" xml:space="preserve">
+    <value>가로등 기둥 (garodeung gidung)</value>
+    <comment>pregunta2</comment>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>시계 (sigye)</value>
+    <comment>pregunta2</comment>
+  </data>
   <data name="String9" xml:space="preserve">
-    <value>괜찮아요 (gwaenchanhayo)</value>
+    <value>괜찮아 (gwaenchanha)</value>
     <comment>pregunta3</comment>
   </data>
 </root>

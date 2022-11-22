@@ -21,9 +21,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion1Respuesta" Content="Hello" Height="117" Width="1353" FontSize="48" Margin="0,239,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion1Fallo" Content="Hello" Height="117" Width="1353" FontSize="48" Margin="0,239,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFE0B0B"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion1Correcta" Content="Hello" Height="117" Width="1353" FontSize="48" Margin="0,239,0,0" VerticalAlignment="Top" Click="opcion1_Click" HorizontalAlignment="Center" Foreground="Black" FocusVisualPrimaryBrush="#FF070707" Visibility="Collapsed">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="opcion2" Content="Hi" Height="117" Margin="0,381,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Click="opcion2_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
@@ -31,9 +36,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion2Respuesta" Content="Hi" Height="117" Margin="0,381,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion2Fallo" Content="Hi" Height="117" Margin="0,381,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFE0B0B"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion2Correcta" Content="Hi" Height="117" Margin="0,381,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="opcion3" Content="Hellow" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion3_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
@@ -41,9 +51,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion3Respuesta" Content="Hellow" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion3Fallo" Content="Hellow" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFE0B0B"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion3Correcta" Content="Hellow" Height="116" Margin="0,516,0,0" VerticalAlignment="Top" Width="1353" FontSize="48" HorizontalAlignment="Center" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="opcion4" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion4_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
@@ -51,9 +66,14 @@
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion4Respuesta" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion4Correcta" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CC3BED20"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="opcion4Fallo" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Visibility="Collapsed" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CCFE0B0B"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="reset" Content="Reiniciar" Height="90" Margin="572,834,0,0" VerticalAlignment="Top" Width="391" FontSize="48" Click="reset_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707"/>
