@@ -134,7 +134,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi manqui.
+        ///   Busca una cadena traducida similar a Ti sento.
         /// </summary>
         internal static string String17 {
             get {
@@ -170,7 +170,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ti sento.
+        ///   Busca una cadena traducida similar a Mi manqui.
         /// </summary>
         internal static string String20 {
             get {

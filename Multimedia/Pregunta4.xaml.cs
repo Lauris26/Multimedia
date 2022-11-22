@@ -34,21 +34,21 @@ namespace Multimedia
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesIT));
             cambioLabels(testresource);
-            idioma = 1;
+            idioma = 2;
         }
 
         public void traduFRA()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesFRA));
             cambioLabels(testresource);
-            idioma = 2;
+            idioma = 3;
         }
 
         public void traduEN()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesEN));
             cambioLabels(testresource);
-            idioma = 3;
+            idioma = 1;
         }
 
         public void traduKO()
@@ -60,18 +60,18 @@ namespace Multimedia
 
         private void cambioLabels(ResourceManager testresource)
         {
-            opcion1.Content = testresource.GetString("String20");
-            opcion2.Content = testresource.GetString("String17");
-            opcion3.Content = testresource.GetString("String18");
-            opcion4.Content = testresource.GetString("String19");
-            opcion1Fallo.Content = testresource.GetString("String20");
-            opcion2Fallo.Content = testresource.GetString("String17");
-            opcion3Fallo.Content = testresource.GetString("String18");
-            opcion4Fallo.Content = testresource.GetString("String19");
-            opcion1Correcta.Content = testresource.GetString("String20");
-            opcion2Correcta.Content = testresource.GetString("String17");
-            opcion3Correcta.Content = testresource.GetString("String18");
-            opcion4Correcta.Content = testresource.GetString("String19");
+            opcion1.Content = testresource.GetString("String13");
+            opcion2.Content = testresource.GetString("String14");
+            opcion3.Content = testresource.GetString("String15");
+            opcion4.Content = testresource.GetString("String16");
+            opcion1Fallo.Content = testresource.GetString("String13");
+            opcion2Fallo.Content = testresource.GetString("String14");
+            opcion3Fallo.Content = testresource.GetString("String15");
+            opcion4Fallo.Content = testresource.GetString("String16");
+            opcion1Correcta.Content = testresource.GetString("String13");
+            opcion2Correcta.Content = testresource.GetString("String14");
+            opcion3Correcta.Content = testresource.GetString("String15");
+            opcion4Correcta.Content = testresource.GetString("String16");
 
             opcion1Fallo.Visibility = Visibility.Collapsed;
             opcion2Fallo.Visibility = Visibility.Collapsed;

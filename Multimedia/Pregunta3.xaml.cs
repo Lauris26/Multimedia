@@ -34,21 +34,21 @@ namespace Multimedia
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesIT));
             cambioLabels(testresource);
-            idioma = 1;
+            idioma = 2;
         }
 
         public void traduFRA()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesFRA));
             cambioLabels(testresource);
-            idioma = 2;
+            idioma = 3;
         }
 
         public void traduEN()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesEN));
             cambioLabels(testresource);
-            idioma = 3;
+            idioma = 1;
         }
 
         public void traduKO()

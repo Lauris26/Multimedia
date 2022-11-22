@@ -35,21 +35,21 @@ namespace Multimedia
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesIT));
             cambioLabels(testresource);
-            idioma = 1;
+            idioma = 2;
         }
 
         public void traduFRA()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesFRA));
             cambioLabels(testresource);
-            idioma = 2;
+            idioma = 3;
         }
 
         public void traduEN()
         {
             ResourceManager testresource = new ResourceManager(typeof(ResourcesEN));
             cambioLabels(testresource);
-            idioma = 3;
+            idioma = 1;
         }
 
         public void traduKO()
@@ -70,9 +70,9 @@ namespace Multimedia
             opcion3Fallo.Content = testresource.GetString("String18");
             opcion4Fallo.Content = testresource.GetString("String19");
             opcion1Correcta.Content = testresource.GetString("String20");
-            opcion2Correcta.Content = testresource.GetString("String20");
-            opcion3Correcta.Content = testresource.GetString("String20");
-            opcion4Correcta.Content = testresource.GetString("String20");
+            opcion2Correcta.Content = testresource.GetString("String17");
+            opcion3Correcta.Content = testresource.GetString("String18");
+            opcion4Correcta.Content = testresource.GetString("String19");
 
             opcion1Fallo.Visibility = Visibility.Collapsed;
             opcion2Fallo.Visibility = Visibility.Collapsed;
@@ -88,23 +88,23 @@ namespace Multimedia
         {
             if (idioma == 1)
             {
-                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 2)
             {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 3)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Correcta.Visibility = Visibility.Visible;
+                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 4)
@@ -120,23 +120,23 @@ namespace Multimedia
         {
             if (idioma == 1)
             {
-                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 2)
             {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 3)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Correcta.Visibility = Visibility.Visible;
+                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 4)
@@ -150,25 +150,25 @@ namespace Multimedia
 
         private void opcion3_Click(object sender, RoutedEventArgs e)
         {
-            if (idioma == 1)
+            if(idioma == 1)
+            {
+                opcion1Fallo.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
+                opcion3Correcta.Visibility = Visibility.Visible;
+                opcion4Fallo.Visibility = Visibility.Visible;
+            }
+            else if (idioma == 2)
             {
                 opcion1Correcta.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
-            else if (idioma == 2)
+            else if (idioma == 3)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Correcta.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
-                opcion4Fallo.Visibility = Visibility.Visible;
-            }
-            else if (idioma == 3)
-            {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 4)
@@ -184,23 +184,23 @@ namespace Multimedia
         {
             if (idioma == 1)
             {
-                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 2)
             {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 3)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Correcta.Visibility = Visibility.Visible;
+                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
             else if (idioma == 4)
