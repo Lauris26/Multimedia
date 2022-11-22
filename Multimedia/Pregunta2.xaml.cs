@@ -30,6 +30,10 @@ namespace Multimedia
         }
 
         int idioma = 0;
+        double puntuacionFRA = 0;
+        double puntuacionEN = 0;
+        double puntuacionIT = 0;
+        double puntuacionKO = 0;
 
         public void traduIT()
         {
@@ -125,6 +129,7 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+                puntuacionKO += 1;
             }
         }
 
@@ -150,6 +155,7 @@ namespace Multimedia
                 opcion2Correcta.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+                puntuacionFRA += 1;
             }
             else if (idioma == 4)
             {
@@ -168,6 +174,7 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+                puntuacionEN += 1;
             }
             else if (idioma == 2)
             {
@@ -207,6 +214,7 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Correcta.Visibility = Visibility.Visible;
+                puntuacionIT += 1;
             }
             else if (idioma == 3)
             {
@@ -222,6 +230,26 @@ namespace Multimedia
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
             }
+        }
+
+        public double aciertosFRA()
+        {
+            return puntuacionFRA;
+        }
+
+        public double aciertosIT()
+        {
+            return puntuacionIT;
+        }
+
+        public double aciertosEN()
+        {
+            return puntuacionEN;
+        }
+
+        public double aciertosKO()
+        {
+            return puntuacionKO;
         }
     }
 }

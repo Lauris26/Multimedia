@@ -9,13 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="1001" VerticalAlignment="Top" Width="1480" Source="/Assets/pregunta.jpg" Margin="10,4,0,0" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Assets/pregunta.jpg" Margin="0,0,0,0" Stretch="UniformToFill"/>
 
         <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Height="980" Width="1500">
 
             <Grid Height="990" Width="1499">
                 <TextBlock HorizontalAlignment="Left" Height="100" Margin="83,81,0,0" Text="¿Cuál es la traducción correcta de &quot;te hecho de menos&quot;?" TextWrapping="Wrap" VerticalAlignment="Top" Width="1479" FontWeight="Bold" FontSize="50"/>
-                <TextBlock HorizontalAlignment="Left" Height="73" Margin="1271,839,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="48"><Run Text="5"/><Run Text=" / 5"/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="1271,839,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="48"><Run Text="5"/><Run Text=" / 5"/></TextBlock>
                 <Button x:Name="opcion1" Content="I see you" Height="114" Margin="0,214,0,0" VerticalAlignment="Top" Width="1289" HorizontalAlignment="Center" FontSize="48" Click="opcion1_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFEFAFA"/>

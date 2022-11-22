@@ -89,7 +89,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sono tutti corretti.
+        ///   Busca una cadena traducida similar a All are right.
         /// </summary>
         internal static string String12 {
             get {

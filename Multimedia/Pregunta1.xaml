@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="1252" VerticalAlignment="Center" Width="1688" Source="/Assets/pregunta.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/pregunta.jpg" Stretch="UniformToFill" Margin="0,0,0,0"/>
 
         <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Height="979" Width="1500">
 
