@@ -41,23 +41,31 @@
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+
             </NavigationView.MenuItems>
 
+            <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Frame x:Name="ContentFrame" NavigationFailed="ContentFrame_NavigationFailed" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            </ScrollViewer>
 
         </NavigationView>
 
-        <ComboBox x:Name="seleccionIdioma" PlaceholderText="Elegir idioma a aprender" Margin="10,333,0,0" Width="261" SelectionChanged="idioma" >
+        <ComboBox x:Name="seleccionIdioma" PlaceholderText="Elegir idioma a aprender" Margin="13,344,0,0" Width="261" SelectionChanged="idioma" >
             <x:String>Italiano</x:String>
             <x:String>Ingles</x:String>
             <x:String>Frances</x:String>
             <x:String>Coreano</x:String>
         </ComboBox>
-        <TextBlock x:Name="est1" HorizontalAlignment="Left" Height="34" Margin="10,370,0,0" Text="Llevas acertadas:" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" FontSize="20" FontWeight="Bold"/>
-        <TextBlock x:Name="est2" HorizontalAlignment="Left" Height="142" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="129" FontSize="20"><Run Text="Inglés - "/><LineBreak/><Run Text="Francés - "/><LineBreak/><Run Text="Italiano - "/><LineBreak/><Run Text="Coreano - "/></TextBlock>
-        <TextBlock x:Name="punt1" HorizontalAlignment="Left" Height="29" Margin="103,409,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt2" HorizontalAlignment="Left" Height="29" Margin="103,436,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt3" HorizontalAlignment="Left" Height="29" Margin="103,463,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt4" HorizontalAlignment="Left" Height="29" Margin="108,490,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est0" HorizontalAlignment="Left" Height="34" Margin="10,453,0,0" Text="Llevas acertadas:" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="est1" HorizontalAlignment="Left" Height="29" Margin="13,487,0,0" Text="Inglés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est2" HorizontalAlignment="Left" Height="29" Margin="10,519,0,0" Text="Francés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est3" HorizontalAlignment="Left" Height="29" Margin="9,548,0,0" Text="Italiano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est4" HorizontalAlignment="Left" Height="29" Margin="9,574,0,0" Text="Coreano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt1" HorizontalAlignment="Left" Height="29" Margin="103,492,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt2" HorizontalAlignment="Left" Height="29" Margin="103,519,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt3" HorizontalAlignment="Left" Height="29" Margin="108,546,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt4" HorizontalAlignment="Left" Height="29" Margin="108,573,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <Button x:Name="actualizar" Content="Actualizar" Height="46" Margin="0,611,0,0" VerticalAlignment="Top" Width="215" FontSize="12" Click="actualizar_Click"/>
 
     </Grid>
 </Page>

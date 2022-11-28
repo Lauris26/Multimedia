@@ -161,7 +161,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Allo.
+        ///   Busca una cadena traducida similar a Deux d&apos;entre eux ont raison.
         /// </summary>
         internal static string String2 {
             get {
@@ -179,7 +179,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Le premier et le second sont corrects.
+        ///   Busca una cadena traducida similar a Salute.
         /// </summary>
         internal static string String3 {
             get {
@@ -188,7 +188,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Salute.
+        ///   Busca una cadena traducida similar a Allo.
         /// </summary>
         internal static string String4 {
             get {

@@ -33,7 +33,10 @@ namespace Multimedia
             this.InitializeComponent();
         }
 
-        int eleccion = 0;
+        int puntuacionEN = 0;
+        int puntuacionFRA = 0;
+        int puntuacionIT = 0;
+        int puntuacionKO = 0;
 
         private void ContentFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
@@ -158,7 +161,7 @@ namespace Multimedia
                 Pregunta3 pagina = (Pregunta3)ContentFrame.Content;
                 pagina.traduIT();
             }
-
+            
             if (ContentFrame.CurrentSourcePageType.Name == "Pregunta4")
             {
                 Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
@@ -218,7 +221,7 @@ namespace Multimedia
             }
 
             if (ContentFrame.CurrentSourcePageType.Name == "Pregunta2")
-            {
+            { 
                 Pregunta2 pagina = (Pregunta2)ContentFrame.Content;
                 pagina.traduKO();
             }
@@ -291,6 +294,78 @@ namespace Multimedia
             }else
             {
                 Traduccion_KO();
+            }
+        }
+
+        private void actualizar_Click(object sender, RoutedEventArgs e)
+        {
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta1")
+            {
+                Pregunta1 pagina = (Pregunta1)ContentFrame.Content;
+                puntuacionEN += pagina.aciertosEN();
+                puntuacionFRA += pagina.aciertosFRA();
+                puntuacionIT += pagina.aciertosIT();
+                puntuacionKO += pagina.aciertosKO();
+
+                punt1.Text = puntuacionEN.ToString();
+                punt2.Text = puntuacionFRA.ToString();
+                punt3.Text = puntuacionIT.ToString();
+                punt4.Text = puntuacionKO.ToString();
+            }
+
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta2")
+            {
+                Pregunta2 pagina = (Pregunta2)ContentFrame.Content;
+                puntuacionEN += pagina.aciertosEN();
+                puntuacionFRA += pagina.aciertosFRA();
+                puntuacionIT += pagina.aciertosIT();
+                puntuacionKO += pagina.aciertosKO();
+
+                punt1.Text = puntuacionEN.ToString();
+                punt2.Text = puntuacionFRA.ToString();
+                punt3.Text = puntuacionIT.ToString();
+                punt4.Text = puntuacionKO.ToString();
+            }
+
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta3")
+            {
+                Pregunta3 pagina = (Pregunta3)ContentFrame.Content;
+                puntuacionEN += pagina.aciertosEN();
+                puntuacionFRA += pagina.aciertosFRA();
+                puntuacionIT += pagina.aciertosIT();
+                puntuacionKO += pagina.aciertosKO();
+
+                punt1.Text = puntuacionEN.ToString();
+                punt2.Text = puntuacionFRA.ToString();
+                punt3.Text = puntuacionIT.ToString();
+                punt4.Text = puntuacionKO.ToString();
+            }
+
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta4")
+            {
+                Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
+                puntuacionEN += pagina.aciertosEN();
+                puntuacionFRA += pagina.aciertosFRA();
+                puntuacionIT += pagina.aciertosIT();
+                puntuacionKO += pagina.aciertosKO();
+
+                punt1.Text = puntuacionEN.ToString();
+                punt2.Text = puntuacionFRA.ToString();
+                punt3.Text = puntuacionIT.ToString();
+                punt4.Text = puntuacionKO.ToString();
+            }
+            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            {
+                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
+                puntuacionEN += pagina.aciertosEN();
+                puntuacionFRA += pagina.aciertosFRA();
+                puntuacionIT += pagina.aciertosIT();
+                puntuacionKO += pagina.aciertosKO();
+
+                punt1.Text = puntuacionEN.ToString();
+                punt2.Text = puntuacionFRA.ToString();
+                punt3.Text = puntuacionIT.ToString();
+                punt4.Text = puntuacionKO.ToString();
             }
         }
     }
