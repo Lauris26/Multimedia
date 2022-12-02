@@ -61,7 +61,7 @@
                         <AcrylicBrush TintColor="#CC3BED20"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="opcion4" Content="The frist and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion4_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
+                <Button x:Name="opcion4" Content="The first and the second answere are true" Height="126" Margin="0,652,0,0" VerticalAlignment="Top" Width="1353" HorizontalAlignment="Center" FontSize="48" Click="opcion4_Click" Foreground="Black" FocusVisualPrimaryBrush="#FF070707">
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFEFAFA"/>
                     </Button.Background>

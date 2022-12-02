@@ -11,7 +11,7 @@
     <Grid>
         <Image x:Name="fondo" Source="/Assets/APRENDER-IDIOMAS.jpg" Canvas.Left="-397" Stretch="UniformToFill" Margin="0,0,0,0"/>
 
-        <Canvas HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-1500,-1000,0,0">
             <TextBlock Height="177" Text="Con este juego vas a poder ver el nivel que tienes en distintos idiomas." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="55" Foreground="#FF050505"/>
             <TextBlock Height="177" Text="Podrás elegir el idioma en cada pregunta pudiendo elegir varios en la misma pregunta." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="237" Foreground="Black"/>
             <TextBlock Height="177" Text="Las respuestas correctas aparecerán en verde, las incorrectas en rojo." TextWrapping="Wrap" Width="1347" FontSize="48" Canvas.Left="87" Canvas.Top="419" Foreground="Black"/>

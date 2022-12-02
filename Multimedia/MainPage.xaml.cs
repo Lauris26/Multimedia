@@ -318,14 +318,15 @@ namespace Multimedia
             {
                 aciertosIT += num;
                 totalIT += 1;
-                punt2.Text = aciertosFRA.ToString();
+                punt3.Text = aciertosIT.ToString();
+                
             }
             //frances
             else if (idioma == 3)
             {
                 aciertosFRA += num;
                 totalFRA += 1;
-                punt3.Text = aciertosIT.ToString();
+                punt2.Text = aciertosFRA.ToString();
             }
             //koreano
             else if (idioma == 4)
