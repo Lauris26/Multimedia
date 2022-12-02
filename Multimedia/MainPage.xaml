@@ -56,15 +56,17 @@
             <x:String>Frances</x:String>
             <x:String>Coreano</x:String>
         </ComboBox>
-        <TextBlock x:Name="est0" HorizontalAlignment="Left" Height="34" Margin="10,453,0,0" Text="Llevas acertadas:" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" FontSize="20" FontWeight="Bold"/>
-        <TextBlock x:Name="est1" HorizontalAlignment="Left" Height="29" Margin="13,487,0,0" Text="Inglés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="est2" HorizontalAlignment="Left" Height="29" Margin="10,519,0,0" Text="Francés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="est3" HorizontalAlignment="Left" Height="29" Margin="9,548,0,0" Text="Italiano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="est4" HorizontalAlignment="Left" Height="29" Margin="9,574,0,0" Text="Coreano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt1" HorizontalAlignment="Left" Height="29" Margin="103,492,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt2" HorizontalAlignment="Left" Height="29" Margin="103,519,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt3" HorizontalAlignment="Left" Height="29" Margin="108,546,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <TextBlock x:Name="punt4" HorizontalAlignment="Left" Height="29" Margin="108,573,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est0" HorizontalAlignment="Left" Height="34" Margin="10,450,0,0" Text="Llevas acertadas:" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="est1" HorizontalAlignment="Left" Height="29" Margin="10,485,0,0" Text="Inglés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est2" HorizontalAlignment="Left" Height="29" Margin="10,520,0,0" Text="Francés" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est3" HorizontalAlignment="Left" Height="29" Margin="10,550,0,0" Text="Italiano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="est4" HorizontalAlignment="Left" Height="29" Margin="10,580,0,0" Text="Coreano" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt1" HorizontalAlignment="Left" Height="29" Margin="105,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt1barra" HorizontalAlignment="Left" Height="29" Margin="130,485,0,0" Text="/" TextWrapping="Wrap" VerticalAlignment="Top" Width="12" FontSize="20"/>
+        <TextBlock x:Name="punt1T" HorizontalAlignment="Left" Height="29" Margin="155,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27" FontSize="20"/>
+        <TextBlock x:Name="punt2" HorizontalAlignment="Left" Height="29" Margin="105,520,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt3" HorizontalAlignment="Left" Height="29" Margin="105,550,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt4" HorizontalAlignment="Left" Height="29" Margin="105,580,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
         <Button x:Name="actualizar" Content="Actualizar" Height="46" Margin="0,611,0,0" VerticalAlignment="Top" Width="215" FontSize="12" Click="actualizar_Click"/>
 
     </Grid>
