@@ -144,6 +144,8 @@ namespace Multimedia
                 var item = _pages.FirstOrDefault(p => p.Page == e.SourcePageType);
                 NavView.SelectedItem = NavView.MenuItems.OfType<NavigationViewItem>().First(n => n.Tag.Equals(item.Tag));
             }
+
+            cargaIdioma();
         }
 
         public void Traduccion_IT()
@@ -286,6 +288,7 @@ namespace Multimedia
 
         private void idioma(object sender, SelectionChangedEventArgs e)
         {
+            aviso.Visibility = Visibility.Collapsed;
             if (seleccionIdioma.SelectedIndex == 0)
             {
                 Traduccion_IT();
@@ -319,7 +322,8 @@ namespace Multimedia
                 aciertosIT += num;
                 totalIT += 1;
                 punt3.Text = aciertosIT.ToString();
-                
+                punt3T.Text = totalIT.ToString();
+
             }
             //frances
             else if (idioma == 3)
@@ -327,6 +331,7 @@ namespace Multimedia
                 aciertosFRA += num;
                 totalFRA += 1;
                 punt2.Text = aciertosFRA.ToString();
+                punt2T.Text = totalFRA.ToString();
             }
             //koreano
             else if (idioma == 4)
@@ -334,83 +339,31 @@ namespace Multimedia
                 aciertosKO += num;
                 totalKO += 1;
                 punt4.Text = aciertosKO.ToString();
+                punt4T.Text = totalKO.ToString();
             }
         }
 
-        public void actualizar_Click(object sender, RoutedEventArgs e)
+        public void cargaIdioma()
         {
-            actualizar_Click_1();
-        }
-
-        public void actualizar_Click_1()
-        {
-            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta1")
+            if (seleccionIdioma.SelectedIndex == 0)
             {
-                Pregunta1 pagina = (Pregunta1)ContentFrame.Content;
-                aciertosEN += pagina.aciertosEN();
-                aciertosFRA += pagina.aciertosFRA();
-                aciertosIT += pagina.aciertosIT();
-                aciertosKO += pagina.aciertosKO();
-
-                punt1.Text = aciertosEN.ToString();
-                punt2.Text = aciertosFRA.ToString();
-                punt3.Text = aciertosIT.ToString();
-                punt4.Text = aciertosKO.ToString();
+                Traduccion_IT();
             }
-
-            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta2")
+            else if (seleccionIdioma.SelectedIndex == 1)
             {
-                Pregunta2 pagina = (Pregunta2)ContentFrame.Content;
-                aciertosEN += pagina.aciertosEN();
-                aciertosFRA += pagina.aciertosFRA();
-                aciertosIT += pagina.aciertosIT();
-                aciertosKO += pagina.aciertosKO();
-
-                punt1.Text = aciertosEN.ToString();
-                punt2.Text = aciertosFRA.ToString();
-                punt3.Text = aciertosIT.ToString();
-                punt4.Text = aciertosKO.ToString();
+                Traduccion_EN();
             }
-
-            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta3")
+            else if (seleccionIdioma.SelectedIndex == 2)
             {
-                Pregunta3 pagina = (Pregunta3)ContentFrame.Content;
-                aciertosEN += pagina.aciertosEN();
-                aciertosFRA += pagina.aciertosFRA();
-                aciertosIT += pagina.aciertosIT();
-                aciertosKO += pagina.aciertosKO();
-
-                punt1.Text = aciertosEN.ToString();
-                punt2.Text = aciertosFRA.ToString();
-                punt3.Text = aciertosIT.ToString();
-                punt4.Text = aciertosKO.ToString();
+                Traduccion_FRA();
             }
-
-            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta4")
+            else if (seleccionIdioma.SelectedIndex ==3)
             {
-                Pregunta4 pagina = (Pregunta4)ContentFrame.Content;
-                aciertosEN += pagina.aciertosEN();
-                aciertosFRA += pagina.aciertosFRA();
-                aciertosIT += pagina.aciertosIT();
-                aciertosKO += pagina.aciertosKO();
-
-                punt1.Text = aciertosEN.ToString();
-                punt2.Text = aciertosFRA.ToString();
-                punt3.Text = aciertosIT.ToString();
-                punt4.Text = aciertosKO.ToString();
+                Traduccion_KO();
             }
-            if (ContentFrame.CurrentSourcePageType.Name == "Pregunta5")
+            else
             {
-                Pregunta5 pagina = (Pregunta5)ContentFrame.Content;
-                aciertosEN += pagina.aciertosEN();
-                aciertosFRA += pagina.aciertosFRA();
-                aciertosIT += pagina.aciertosIT();
-                aciertosKO += pagina.aciertosKO();
-
-                punt1.Text = aciertosEN.ToString();
-                punt2.Text = aciertosFRA.ToString();
-                punt3.Text = aciertosIT.ToString();
-                punt4.Text = aciertosKO.ToString();
+                aviso.Visibility = Visibility.Visible;
             }
         }
     }

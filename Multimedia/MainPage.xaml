@@ -65,9 +65,16 @@
         <TextBlock x:Name="punt1barra" HorizontalAlignment="Left" Height="29" Margin="130,485,0,0" Text="/" TextWrapping="Wrap" VerticalAlignment="Top" Width="12" FontSize="20"/>
         <TextBlock x:Name="punt1T" HorizontalAlignment="Left" Height="29" Margin="155,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27" FontSize="20"/>
         <TextBlock x:Name="punt2" HorizontalAlignment="Left" Height="29" Margin="105,520,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt2barra" HorizontalAlignment="Left" Height="29" Margin="130,520,0,0" Text="/" TextWrapping="Wrap" VerticalAlignment="Top" Width="12" FontSize="20"/>
+        <TextBlock x:Name="punt2T" HorizontalAlignment="Left" Height="29" Margin="155,520,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27" FontSize="20"/>
         <TextBlock x:Name="punt3" HorizontalAlignment="Left" Height="29" Margin="105,550,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="punt3barra" HorizontalAlignment="Left" Height="29" Margin="130,550,0,0" Text="/" TextWrapping="Wrap" VerticalAlignment="Top" Width="12" FontSize="20"/>
+        <TextBlock x:Name="punt3T" HorizontalAlignment="Left" Height="29" Margin="155,550,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27" FontSize="20"/>
         <TextBlock x:Name="punt4" HorizontalAlignment="Left" Height="29" Margin="105,580,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="20"/>
-        <Button x:Name="actualizar" Content="Actualizar" Height="46" Margin="0,611,0,0" VerticalAlignment="Top" Width="215" FontSize="12" Click="actualizar_Click"/>
+        <TextBlock x:Name="punt4barra" HorizontalAlignment="Left" Height="29" Margin="130,580,0,0" Text="/" TextWrapping="Wrap" VerticalAlignment="Top" Width="12" FontSize="20"/>
+        <TextBlock x:Name="punt4T" HorizontalAlignment="Left" Height="29" Margin="155,580,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27" FontSize="20"/>
+
+        <TextBlock x:Name="aviso" HorizontalAlignment="Left" Height="29" Margin="13,381,0,0" Text="Debes selecionar un idioma" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontSize="20" FocusVisualPrimaryBrush="#FFEF1010" FocusVisualSecondaryBrush="#99F31616" Foreground="#FFF20B0B" Visibility="Collapsed"/>
 
     </Grid>
 </Page>

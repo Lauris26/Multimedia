@@ -98,7 +98,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je t&apos;aime.
+        ///   Busca una cadena traducida similar a Je te hais.
         /// </summary>
         internal static string String13 {
             get {
@@ -125,7 +125,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je te hais.
+        ///   Busca una cadena traducida similar a Je t&apos;aime.
         /// </summary>
         internal static string String16 {
             get {
@@ -206,7 +206,7 @@ namespace Multimedia.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Je suis.
+        ///   Busca una cadena traducida similar a Je suis .
         /// </summary>
         internal static string String6 {
             get {

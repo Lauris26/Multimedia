@@ -134,7 +134,7 @@
     <comment>pregunta3</comment>
   </data>
   <data name="String13" xml:space="preserve">
-    <value>Je t'aime</value>
+    <value>Je te hais</value>
     <comment>pregunta4</comment>
   </data>
   <data name="String14" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>pregunta4</comment>
   </data>
   <data name="String16" xml:space="preserve">
-    <value>Je te hais</value>
+    <value>Je t'aime</value>
     <comment>pregunta4</comment>
   </data>
   <data name="String17" xml:space="preserve">
@@ -182,7 +182,7 @@
     <comment>pregunta2</comment>
   </data>
   <data name="String6" xml:space="preserve">
-    <value>Je suis</value>
+    <value>Je suis </value>
     <comment>pregunta2</comment>
   </data>
   <data name="String7" xml:space="preserve">

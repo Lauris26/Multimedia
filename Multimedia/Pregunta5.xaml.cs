@@ -30,10 +30,6 @@ namespace Multimedia
         }
 
         int idioma = 0;
-        int puntuacionFRA = 0;
-        int puntuacionEN = 0;
-        int puntuacionIT = 0;
-        int puntuacionKO = 0;
 
         public void traduIT()
         {
@@ -90,12 +86,17 @@ namespace Multimedia
 
         private void opcion1_Click(object sender, RoutedEventArgs e)
         {
+            Frame contentFrame = Window.Current.Content as Frame;
+            MainPage mainPage = contentFrame.Content as MainPage;
+
             if (idioma == 1)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 2)
             {
@@ -103,7 +104,8 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
-                puntuacionIT = 1;
+
+                mainPage.actu(idioma, 1);
             }
             else if (idioma == 3)
             {
@@ -111,6 +113,8 @@ namespace Multimedia
                 opcion2Correcta.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 4)
             {
@@ -118,17 +122,24 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Correcta.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
         }
 
         private void opcion2_Click(object sender, RoutedEventArgs e)
         {
+            Frame contentFrame = Window.Current.Content as Frame;
+            MainPage mainPage = contentFrame.Content as MainPage;
+
             if (idioma == 1)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 2)
             {
@@ -136,6 +147,8 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 3)
             {
@@ -143,7 +156,8 @@ namespace Multimedia
                 opcion2Correcta.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
-                puntuacionFRA = 1;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 4)
             {
@@ -151,50 +165,24 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Correcta.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
         }
 
         private void opcion3_Click(object sender, RoutedEventArgs e)
         {
-            if(idioma == 1)
-            {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Correcta.Visibility = Visibility.Visible;
-                opcion4Fallo.Visibility = Visibility.Visible;
-                puntuacionEN = 1;
-            }
-            else if (idioma == 2)
-            {
-                opcion1Correcta.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
-                opcion4Fallo.Visibility = Visibility.Visible;
-            }
-            else if (idioma == 3)
-            {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Correcta.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
-                opcion4Fallo.Visibility = Visibility.Visible;
-            }
-            else if (idioma == 4)
-            {
-                opcion1Fallo.Visibility = Visibility.Visible;
-                opcion2Fallo.Visibility = Visibility.Visible;
-                opcion3Fallo.Visibility = Visibility.Visible;
-                opcion4Correcta.Visibility = Visibility.Visible;
-            }
-        }
+            Frame contentFrame = Window.Current.Content as Frame;
+            MainPage mainPage = contentFrame.Content as MainPage;
 
-        private void opcion4_Click(object sender, RoutedEventArgs e)
-        {
             if (idioma == 1)
             {
                 opcion1Fallo.Visibility = Visibility.Visible;
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Correcta.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 1);
             }
             else if (idioma == 2)
             {
@@ -202,6 +190,8 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 3)
             {
@@ -209,6 +199,8 @@ namespace Multimedia
                 opcion2Correcta.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
             }
             else if (idioma == 4)
             {
@@ -216,7 +208,51 @@ namespace Multimedia
                 opcion2Fallo.Visibility = Visibility.Visible;
                 opcion3Fallo.Visibility = Visibility.Visible;
                 opcion4Correcta.Visibility = Visibility.Visible;
-                puntuacionKO = 1;
+
+                mainPage.actu(idioma, 0);
+            }
+        }
+
+        private void opcion4_Click(object sender, RoutedEventArgs e)
+        {
+            Frame contentFrame = Window.Current.Content as Frame;
+            MainPage mainPage = contentFrame.Content as MainPage;
+
+            if (idioma == 1)
+            {
+                opcion1Fallo.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
+                opcion3Correcta.Visibility = Visibility.Visible;
+                opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
+            }
+            else if (idioma == 2)
+            {
+                opcion1Correcta.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
+            }
+            else if (idioma == 3)
+            {
+                opcion1Fallo.Visibility = Visibility.Visible;
+                opcion2Correcta.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion4Fallo.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 0);
+            }
+            else if (idioma == 4)
+            {
+                opcion1Fallo.Visibility = Visibility.Visible;
+                opcion2Fallo.Visibility = Visibility.Visible;
+                opcion3Fallo.Visibility = Visibility.Visible;
+                opcion4Correcta.Visibility = Visibility.Visible;
+
+                mainPage.actu(idioma, 1);
             }
         }
 
@@ -230,26 +266,6 @@ namespace Multimedia
             opcion2Correcta.Visibility = Visibility.Collapsed;
             opcion3Correcta.Visibility = Visibility.Collapsed;
             opcion4Correcta.Visibility = Visibility.Collapsed;
-        }
-
-        public int aciertosFRA()
-        {
-            return puntuacionFRA;
-        }
-
-        public int aciertosIT()
-        {
-            return puntuacionIT;
-        }
-
-        public int aciertosEN()
-        {
-            return puntuacionEN;
-        }
-
-        public int aciertosKO()
-        {
-            return puntuacionKO;
         }
     }
 }
